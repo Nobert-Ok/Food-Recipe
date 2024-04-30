@@ -1,0 +1,15 @@
+.container {
+  margin: 20px auto;
+  width: 300px;
+  position: relative;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  outline: none;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+  color: rgb(155, 155, 155);
+}

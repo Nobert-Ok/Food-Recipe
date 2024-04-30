@@ -1,0 +1,35 @@
+.container {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: PolySan, sans-serif;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.itemImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.itemContent {
+  text-align: center;
+}
+
+.itemButton {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttonContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
