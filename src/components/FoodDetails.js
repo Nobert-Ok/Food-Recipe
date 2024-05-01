@@ -22,7 +22,7 @@ export default function FoodDetails({ foodId }) {
     <div>
       <div className={styles.recipeCard}>
         <h1>{food.title}</h1>
-        <img className={styles.recipeImage} src={food.image} />
+        <img className={styles.recipeImage} src={food.image} alt="" />
         <div className={styles.recipeDetail}>
           <span>
             <strong>⌚️ {food.readyInMinutes} mins</strong>
